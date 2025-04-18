@@ -224,7 +224,7 @@ export default function Home() {
         id="front"
         className="min-h-screen flex flex-col pt-8 pb-20 items-center bg-[#03001B]"
       >
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-6 gap-y-9 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  xl:grid-cols-3 2xl:grid-cols-3 xl:px-20 gap-x-6 gap-y-9 mx-auto">
           {Projects.map((project) => (
             <ProjetoCard
               key={project.name}
