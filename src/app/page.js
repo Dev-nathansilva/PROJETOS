@@ -272,12 +272,15 @@ export default function Home() {
           </div>
         </div>
       )}
-      <div className="bg-[#03001B] p-10 flex gap-3 justify-center">
-        <span className="font-mono text-[#ffffff44] "> © Copyright 2025</span>
+      <div className="bg-[#03001B] p-10 flex flex-col gap-1 items-center sm:flex-row sm:gap-3 justify-center">
+        <span className="text-[20px] sm:text-[16px] font-mono text-[#ffffff44] ">
+          {" "}
+          © Copyright 2025
+        </span>
         <a
           href=" https://nathandev.com.br/"
           target="_blank"
-          className="w-fit text-center underline underline-offset-2 block font-mono text-[#ffffff44] hover:text-[#ffffff7a]"
+          className="text-[20px] sm:text-[16px] w-[360px] sm:w-fit text-center underline underline-offset-2 block font-mono text-[#ffffff44] hover:text-[#ffffff7a]"
         >
           https://nathandev.com.br/
         </a>
