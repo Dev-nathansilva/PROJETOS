@@ -33,7 +33,7 @@ const Projects = [
   },
   {
     name: "CURADOR.IA",
-    link: "https://lps.curadoria.app/ia-na-pratica/",
+    link: "https://mediumslateblue-parrot-493345.hostingersite.com/ia-na-pratica/",
     description:
       "Landing page do curso 'IA na Prática', com foco em ferramentas de inteligência artificial aplicadas ao dia a dia. Criado com Wordpress, CSS e JS.",
   },
