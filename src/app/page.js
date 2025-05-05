@@ -17,7 +17,7 @@ const Projects = [
     name: "ASSESSORIA JURÍDICA",
     link: "https://lp.figueiredocorreia.com/assessoria-juridica/",
     description:
-      "Landing page da Figueiredo Correia, escritório de advocacia com mais de 40 anos de experiência. Desenvolvido com Wordpress, CSS e JS.",
+      "Landing page da Figueiredo Correia, escritório de advocacia com mais de 40 anos de experiência. Desenvolvido com Wordpress, CSS e JS. ",
   },
   {
     name: "FOX ALIGNER",
