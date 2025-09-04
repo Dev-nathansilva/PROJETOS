@@ -33,7 +33,7 @@ const Projects = [
   },
   {
     name: "CURADOR.IA",
-    link: "https://mediumslateblue-parrot-493345.hostingersite.com/ia-na-pratica/",
+    link: "https://www.figma.com/proto/x5VkY4eZDkceM8TlzF6Fi2/LANDING-PAGE-CURADORIA?node-id=2001-22&t=vqZYMob2Z5aIFf1y-8&scaling=scale-down-width&content-scaling=fixed&page-id=2001%3A21&starting-point-node-id=2001%3A22&hide-ui=1",
     description:
       "Landing page do curso 'IA na Prática', com foco em ferramentas de inteligência artificial aplicadas ao dia a dia. Criado com Wordpress, CSS e JS.",
   },
@@ -219,10 +219,19 @@ export default function Home() {
         />
       </section>
 
+      {/* LINK SITE OFICIAL */}
+      <a
+        href="https://nathandev.com.br/"
+        target="_blank"
+        className="w-full text-[#acacac] hover:text-[#d8d8d8] bg-[#03001B] p-2 text-center text-[12px] fixed bottom-[0px] left-[10px] z-[9999] font-mono border-t border-[#ffffff1f]"
+      >
+        Visualizar Site Oficial
+      </a>
+
       {/* PROJECTS */}
       <section
         id="front"
-        className="min-h-screen flex flex-col pt-8 pb-20 items-center bg-[#03001B]"
+        className="min-h-screen flex flex-col pt-8 pb-[20px] items-center bg-[#03001B]"
       >
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  xl:grid-cols-3 2xl:grid-cols-3 xl:px-20 gap-x-6 gap-y-9 mx-auto">
           {Projects.map((project) => (
@@ -272,7 +281,7 @@ export default function Home() {
           </div>
         </div>
       )}
-      <div className="bg-[#03001B] p-10 flex flex-col gap-1 items-center sm:flex-row sm:gap-3 justify-center">
+      <div className="bg-[#03001B] pt-10 pb-20 md:pb-15  flex flex-col gap-1 items-center sm:flex-row sm:gap-3 justify-center">
         <span className="text-[20px] sm:text-[16px] font-mono text-[#ffffff44] ">
           {" "}
           © Copyright 2025

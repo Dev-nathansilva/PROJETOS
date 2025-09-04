@@ -25,7 +25,7 @@ export default function BackToTop() {
     isVisible && (
       <button
         onClick={scrollToTop}
-        className="cursor-pointer fixed bottom-6 right-6 z-50 p-3 bg-[#ebebeb19] text-white rounded-full shadow-lg hover:bg-[#ebebeb46] transition duration-300"
+        className="cursor-pointer fixed bottom-12 right-6 z-50 p-3 bg-[#ebebeb19] text-white rounded-full shadow-lg hover:bg-[#ebebeb46] transition duration-300"
         aria-label="Voltar ao topo"
       >
         <FaArrowUp size={20} />
